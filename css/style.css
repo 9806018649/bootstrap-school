@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+
+}
+
+/* top bar */
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.facebook img {
+    max-width: 24vw;
+    height: 24px;
+    margin-top: 4px;
+}
+
+button {
+    padding: 4px 22px;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    gap: 10px;
+    width: 109px;
+    height: 23px;
+    margin-top: 3px;
+}
+
+.email {
+    background: #323E79;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+.mail {
+    padding-left: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .call1 {
+        margin-left: -95px !important;
+    }
+
+    .call2 {
+        margin-left: -50px !important;
+    }
+
+    .apply-btn {
+        position: relative;
+        left: -50px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 626px) {
+    body .container-fluid {
+        overflow-x: hidden;
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+        overflow-y: hidden;
+        scroll-margin: 0;
+    }
+}
+
+/* top bar */
+
+/* nav bar */
+
+.navbar {
+
+    color: #000000;
+
+}
+
+.believer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school {
+    margin-left: 10%;
+
+}
+
+.readmore {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #323E79;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.school .text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-left: 2%;
+}
+
+.text h6 {
+    height: 44px;
+    width: 120%;
+    margin-top: 7%;
+    font-weight: 700;
+    font-size: 29.5439px;
+    line-height: 44px;
+    color: #323E79;
+}
+
+.text p {
+    font-weight: 400;
+    width: 60%;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.home {
+    margin-left: 13%;
+    margin-bottom: 1%;
+}
+
+.nav-item a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+/* end nav bar */
+/* banner */
+.banner {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 617px;
+}
+
+/* end banner */
+/* about start */
+
+.about {
+    font-family: 'Poppins';
+    font-style: normal;
+
+}
+
+.notice h6 {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #323E79;
+
+}
+
+.notice p {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.view {
+    border: 1px solid #323E79;
+    color: #323E79;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+
+
+.calender {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(118, 110, 110, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.executive {
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+
+
+.person-2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.person-2 h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #323E79;
+}
+
+.person-2 p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+/* end about */
+/* student activity */
+
+.activity {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.activity h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #323E79;
+}
+
+.activity p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.box {
+    gap: 30px;
+
+}
+
+.box .boxup {
+
+    margin-bottom: 14%;
+
+}
+
+.box img {
+    border-radius: 12.0833px;
+
+}
+
+/* end student activity */
+/* news and events */
+.events {
+
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.news h5 {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #323E79;
+}
+
+.event h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #323E79;
+}
+
+.event p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+/* end news and events */
+/* members profile */
+.members {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.members h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #323E79;
+}
+
+.academic {
+    text-align: center;
+}
+
+.academic strong {
+    font-weight: 500;
+    font-size: 14px;
+    color: #323E79;
+
+}
+
+.academic small {
+
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.academic p {
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+}
+
+/* end members profile */
+/* footer */
+.footer {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.footer h5 {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.footer p {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* end footer */
