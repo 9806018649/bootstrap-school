@@ -110,10 +110,7 @@ a {
     align-items: center;
 }
 
-.school {
-    margin-left: 10%;
 
-}
 
 .readmore {
 
@@ -137,8 +134,6 @@ a {
 }
 
 .text h6 {
-    height: 44px;
-    width: 120%;
     margin-top: 7%;
     font-weight: 700;
     font-size: 29.5439px;
@@ -148,8 +143,6 @@ a {
 
 .text p {
     font-weight: 400;
-    width: 60%;
-    height: 18px;
     font-size: 12px;
     line-height: 18px;
     color: #000000;
@@ -157,7 +150,7 @@ a {
 }
 
 .home {
-    margin-left: 13%;
+    margin-left: 10%;
     margin-bottom: 1%;
 }
 
